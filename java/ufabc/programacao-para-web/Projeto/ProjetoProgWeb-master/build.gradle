@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-group = 'com.projeto'
+group = 'br.com.bb'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
@@ -35,5 +35,7 @@ dependencies {
 	runtime('org.postgresql:postgresql') 
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
-	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+	compile('org.springframework.boot:spring-boot-starter-thymeleaf') //Comentar caso usar JSP. Descomentar caso use HTML.
+	//compile('javax.servlet:jstl')
+	//compile('org.apache.tomcat.embed:tomcat-embed-jasper')
 }

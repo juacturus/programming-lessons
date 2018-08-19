@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.projeto.projetoprogweb.model.entity.Comentario;
@@ -17,7 +18,7 @@ import com.projeto.projetoprogweb.service.TipoNoticiaService;
 @Controller
 public class ProjetoprogwebController {
 
-	//Injeções
+	//Injeï¿½ï¿½es
 	/*@Autowired
 	private Calendar calendar;*/
 	@Autowired
@@ -27,8 +28,24 @@ public class ProjetoprogwebController {
 	@Autowired
 	private TipoNoticiaService tipoService;
 	
-	@RequestMapping("/")
-	public ModelAndView index() {
+	//- - - CONTROLLER FOR JSP PAGES - - -
+	
+	@RequestMapping(value = { "/jsp", "/indexjsp" })
+	public ModelAndView teste() {
+		return new ModelAndView("inicio");
+	}
+	
+	@RequestMapping(value = { "/listarcomentjsp" })
+	@ResponseBody
+	public ModelAndView listarComent() {
+		ModelAndView mv = new ModelAndView("listarcoment");
+		mv.addObject("comentarios", comentService.getAll());
+		return mv;
+	}
+	
+	//- - - CONTROLLER FOR HTML PAGES - - -
+	@RequestMapping({ "/", "/index" })
+	public ModelAndView indexhtml() {
 		return new ModelAndView("index");
 	}
 	
