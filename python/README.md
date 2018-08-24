@@ -113,11 +113,10 @@ Link da playlist do Mundo 03:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/aulas/Aula16%20-%20Tuplas.py">Aula16</a></td>
 <td>Introdução às Tuplas</td>
 </tr>
-
-
 </table>
 
-# Exerc_CursoEmVideo
+# Exercícios Curso Em Vídeo
+
 Para a visualização e busca de todos os 72 exercícios realizados no <b>Curso Em Vídeo</b>, basta seguir a tabela abaixo.
 
 Link para a playlista de Exercícios: 
@@ -355,6 +354,8 @@ Link para a playlista de Exercícios:
 
 # Exercícios PythonBrasil
 
+<a href="http://pt-br.tinypic.com?ref=netgk5" target="_blank"><img src="http://i64.tinypic.com/netgk5.png" border="0" alt="Image and video hosting by TinyPic"></a>
+
 O site Python Brasil disponibiliza uma vasta lista de exercícios que contempla diversos conceitos básicos de Python. Após ter finalizado os exercícios do Curso em Vídeo, houve a necessidade de encontrar uma outra forma de continuar praticando e, através de uma pesquisa no próprio Google, foi possível encontrar esta excelente lista.
 
 Link da lista no site Python Brasil: <a href="https://wiki.python.org.br/ListaDeExercicios">Listas_PythonBrasil</a>
@@ -363,14 +364,14 @@ Arquivo PDF gerado por Cleibson Almeida (caso o site esteja fora do ar): <a href
 
 Os arquivos e códigos presentes nos repositórios referentes a estas listas foram, estrategicamente, nomeados de acordo com os respectivos assuntos/temas/propostas/objetivos de cada exercício. Dessa forma, basta navegar pelo repositório desejado e referendar o assunto tratado através da nomeação dos arquivos.
 
-<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Sequencial">1_PythonBrasil_Sequencial</a>
+<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Sequencial">1-Sequencial</a>
 
-<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Decisao">2_PythonBrasil_Decisão</a>
+<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Decisao">2-Condicionais</a>
 
-<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Repeticao">3_PythonBrasil_Repetição</a>
+<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Repeticao">3-Estruturas-Repetição</a>
 
-<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Listas">4_PythonBrasil_Listas</a>
+<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Listas">4-Listas</a>
 
-<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Funcoes">5_PythonBrasil_Funcoes</a>
+<a href="https://github.com/ThiagoPanini/exerciciosPython/tree/master/PythonBrasil_Funcoes">5-Funcoes</a>
 
 Enjoy!
