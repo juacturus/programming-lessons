@@ -3,7 +3,9 @@ O compartilhamento deste repositório tem como principal objetivo auxiliar aspir
 aprendizagem, buscam uma base fiel para consulta e encontro de soluções, iguais ou semelhantes, aos probemas encontrados ao longo do 
 caminho. Os projetos a seguir sintetizam e descrevem minha própria trajetória de aprendizado em Python, a qual será detalhada abaixo.
 
-# Aulas_CursoEmVideo
+# Curso Em Vídeo - Gustavo Guanabara
+
+<a href="http://pt-br.tinypic.com?ref=15n3axw" target="_blank"><img src="http://i65.tinypic.com/15n3axw.jpg" border="0" alt="Backgorund Curso Em Vídeo"></a>
 
 A seguir, serão catálogadas as anotações de aulas obtidas no canal <b>Curso Em Vídeo</b> do professor Gustavo Guanabara. 
 O conteúdo está sendo lançado e, até o momento, contabilizam 11 aulas para o "Mundo 01" e 4 aulas para o "Mundo 02". O "Mundo 03" está em andamento. Os exercícios serão disponibilizados em um
