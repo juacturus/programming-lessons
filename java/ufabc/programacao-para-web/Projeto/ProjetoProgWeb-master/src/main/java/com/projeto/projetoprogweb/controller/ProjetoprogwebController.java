@@ -49,21 +49,29 @@ public class ProjetoprogwebController {
 		return new ModelAndView("index");
 	}
 	
-	@RequestMapping("/listarcoment")
+	@RequestMapping("/listagem")
 	public ModelAndView listar(Model model) {
 		model.addAttribute("comentario", comentService.getAll());
-		return new ModelAndView("listarcomentarios");
+		return new ModelAndView("listagem");
 	}
 	
-	@GetMapping("/adicionarcoment")
+	@RequestMapping("/noticias")
+	public ModelAndView listarnoticia(Model model) {
+		model.addAttribute("noticia",noticiaService.getAll());
+		return new ModelAndView("noticia");
+	}
+	
+	@GetMapping("/comenta")
 	public ModelAndView recebeInserir(Model model) {
 		model.addAttribute("comentario", new Comentario());
-		return new ModelAndView("inserircomentario");
+
+		return new ModelAndView("comenta");
 	}
 	
-	@PostMapping("/adicionarcoment")
+	@PostMapping("/comenta")
 	public ModelAndView salvaInserir(@ModelAttribute("comentario") Comentario coment, Model model) {
+		coment.setData("21-08-2018");
 		comentService.create(coment);
-		return new ModelAndView("inserircomentario");
+		return new ModelAndView("comenta");
 	}
 }
