@@ -128,8 +128,8 @@ Link para a playlista de Exercícios:
 <th>Conteúdo</th>
 </tr>
 
-<tr>
-<td colspan="2">Tipos Primitivos e Operadores</td>
+<tr align='center'>
+  <td colspan="2" align='center'><b>Tipos Primitivos e Operadores</b></td>
 </tr> 
 <tr>
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex000%20-%20Hello%20World.py">ex000</a></td>
@@ -183,6 +183,10 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex015%20-%20Aluguel%20de%20carros.py">ex015</a></td>
 <td>Aluguel de carros</td>
 </tr>
+
+<tr align='center'>
+  <td colspan="2" align='center'><b>Módulos e Bibliotecas</b></td>
+</tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex016%20-%20Quebrando%20um%20n%C3%BAmero.py">ex016</a></td>
 <td>Quebrando um número</td>
 </tr>
@@ -201,6 +205,10 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex021%20-%20Tocando%20um%20mp3.py">ex021</a></td>
 <td>Tocando um mp3</td>
 </tr>
+
+<tr align='center'>
+  <td colspan="2" align='center'><b>Manipulando Strings</b></td>
+</tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex022%20-%20Analisador%20de%20textos.py">ex022</a></td>
 <td>Analisador de textos</td>
 </tr>
@@ -219,6 +227,10 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex027%20-%20Nome%20e%20sobrenome.py">ex027</a></td>
 <td>Primeiro e último nome de uma pessoa</td>
 </tr>
+
+<tr align='center'>
+  <td colspan="2" align='center'><b>Condicionais Simples</b></td>
+</tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex028%20-%20Adivinha%C3%A7%C3%A3o%20v1.py">ex028</a></td>
 <td>Jogo da adivinhação v1.0</td>
 </tr>
@@ -243,6 +255,10 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex035%20-%20Tri%C3%A2ngulo%20v1.py">ex035</a></td>
 <td>Analisando triângulo v1.0</td>
 </tr>
+
+<tr align='center'>
+  <td colspan="2" align='center'><b>Condicionais Aninhadas</b></td>
+</tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex036%20-%20Aprovando%20empr%C3%A9stimo.py">ex036</a></td>
 <td>Aprovando empréstimo</td>
 </tr>
@@ -273,6 +289,10 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex045-%20Jokenpo.py">ex045</a></td>
 <td>GAME: Pedra, Papel e Tesoura</td>
 </tr>
+
+<tr align='center'>
+  <td colspan="2" align='center'><b>Laço de Repetição <i>for</i></b></td>
+</tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex046%20-%20Contagem%20regressiva.py">ex046</a></td>
 <td>Contagem regressiva</td>
 </tr>
@@ -306,6 +326,10 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex056%20-%20Analisador%20completo.py">ex056</a></td>
 <td>Analisador completo</td>
 </tr>
+
+<tr align='center'>
+  <td colspan="2" align='center'><b>Laço de Repetição<i>while</i></b></td>
+</tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex057%20-%20Valida%C3%A7%C3%A3o%20de%20dados.py">ex057</a></td>
 <td>Validação de dados</td>
 </tr>
@@ -333,6 +357,10 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex065%20-%20Maior%20e%20menor.py">ex065</a></td>
 <td>Maior e menor valores</td>
 </tr>
+
+<tr align='center'>
+  <td colspan="2" align='center'><b>Laço infinito e <i>break</i></b></td>
+</tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex066%20-%20Flag%20n%C3%BAmeros.py">ex066</a></td>
 <td>Vários números com flag</td>
 </tr>
@@ -351,6 +379,9 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex071%20-%20Simulador%20de%20caixa.py">ex071</a></td>
 <td>Simulador de caixa eletrônico</td>
 </tr>
+<tr align='center'>
+  <td colspan="2" align='center'><b>Tuplas</b></td>
+</tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex072%20-%20Tupla%20por%20extenso.py">ex072</a></td>
 <td>Tupla por extenso</td>
 </tr>
