@@ -351,13 +351,16 @@ Link para a playlista de Exercícios:
 </tr>
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex072%20-%20Tupla%20por%20extenso.py">ex072</a></td>
 <td>Tupla por extenso</td>
+</tr>
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex073%20-%20Campeonato%20brasileiro.py">ex073</a></td>
 <td>Campeonato Brasileiro</td>
+</tr>
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex074%20-%20Tupla%20aleat%C3%B3ria.py">ex074</a></td>
 <td>Tupla aleatória</td>
+</tr>
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex075%20-%20Input%20teclado.py">ex075</a></td>
 <td>Tupla através de input</td>
-
+</tr>
 </table>
 
 # Exercícios PythonBrasil
