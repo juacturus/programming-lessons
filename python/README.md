@@ -123,12 +123,14 @@ Link para a playlista de Exercícios:
 <a href="https://www.youtube.com/watch?v=nIHq1MtJaKs&list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-">Lista_Exercicios_CursoEmVideo</a>
 
 <table>
-
 <tr>
 <th>Arquivo</th>
 <th>Conteúdo</th>
 </tr>
 
+<tr>
+<td colspan="2">Tipos Primitivos e Operadores</td>
+</tr> 
 <tr>
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex000%20-%20Hello%20World.py">ex000</a></td>
 <td>Olá, Mundo!</td>
