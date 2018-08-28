@@ -335,7 +335,7 @@ Link para a playlista de Exercícios:
 </tr>
 
 <tr align='center'>
-  <td colspan="2" align='center'><b>Laço de Repetição<i>while</i></b></td>
+  <td colspan="2" align='center'><b>Laço de Repetição <i>while</i></b></td>
 </tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex057%20-%20Valida%C3%A7%C3%A3o%20de%20dados.py">ex057</a></td>
 <td>Validação de dados</td>
@@ -410,7 +410,7 @@ Link para a playlista de Exercícios:
 </tr>
 
 <tr align='center'>
-  <td colspan="2" align='center'><b>Listas simples (pt I)</b></td>
+  <td colspan="2" align='center'><b>Listas simples (parte I)</b></td>
 </tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex078%20-%20Maior%20e%20Menor.py">ex078</a></td>
 <td>Maior e menor</td>
