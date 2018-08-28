@@ -5,6 +5,9 @@ Depois disse, mostre a listagem de números gerados e também indique o menor e 
 
 from random import randint
 
+print('-=' * 10)
+print('{:^20}'.format('TUPLA ALEATÓRIA'))
+print('-=' * 10)
 tupla = (randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10))
 
 print(tupla)

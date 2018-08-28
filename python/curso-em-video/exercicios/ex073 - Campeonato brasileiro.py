@@ -22,7 +22,7 @@ for i in range(5):
 
 cabecalho('B', 'Últimos 4 colocados')
 for i in range(-4, 0):
-    print('{} - {}'.format(classificacao.index(classificacao[i+1]), classificacao[i+1]))
+    print('{} - {}'.format((classificacao.index(classificacao[i])+1), classificacao[i]))
 
 cabecalho('C', 'Ordem alfabética')
 print(sorted(classificacao))
