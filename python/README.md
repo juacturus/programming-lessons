@@ -113,6 +113,13 @@ Link da playlist do Mundo 03:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/aulas/Aula16%20-%20Tuplas.py">Aula16</a></td>
 <td>Introdução às Tuplas</td>
 </tr>
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/aulas/Aula17%20-%20Listas.py">Aula17a</a></td>
+<td>Listas parte 1</td>
+</tr>
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/aulas/Aula17b%20-%20Listas%20II.py">Aula17a</a></td>
+<td>Listas parte 2</td>
+</tr>
+
 </table>
 
 # Exercícios Curso Em Vídeo
@@ -328,7 +335,7 @@ Link para a playlista de Exercícios:
 </tr>
 
 <tr align='center'>
-  <td colspan="2" align='center'><b>Laço de Repetição<i>while</i></b></td>
+  <td colspan="2" align='center'><b>Laço de Repetição <i>while</i></b></td>
 </tr> 
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex057%20-%20Valida%C3%A7%C3%A3o%20de%20dados.py">ex057</a></td>
 <td>Validação de dados</td>
@@ -379,6 +386,7 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex071%20-%20Simulador%20de%20caixa.py">ex071</a></td>
 <td>Simulador de caixa eletrônico</td>
 </tr>
+
 <tr align='center'>
   <td colspan="2" align='center'><b>Tuplas</b></td>
 </tr> 
@@ -394,6 +402,35 @@ Link para a playlista de Exercícios:
 <td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex075%20-%20Input%20teclado.py">ex075</a></td>
 <td>Tupla através de input</td>
 </tr>
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex076%20-%20Listagem.py">ex076</a></td>
+<td>Listagem tabular</td>
+</tr>
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex077%20-%20Vogais.py">ex077</a></td>
+<td>Vogaisr</td>
+</tr>
+
+<tr align='center'>
+  <td colspan="2" align='center'><b>Listas simples (parte I)</b></td>
+</tr> 
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex078%20-%20Maior%20e%20Menor.py">ex078</a></td>
+<td>Maior e menor</td>
+</tr>
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex079%20-%20Valores%20%C3%BAnicos.py">ex079</a></td>
+<td>Valores únicos</td>
+</tr>
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex080%20-%20Lista%20ordenada.py">ex080</a></td>
+<td>Lista ordenada</td>
+</tr>
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex081%20-%20Analisando%20lista.py">ex081</a></td>
+<td>Lista ordenada decrescente</td>
+</tr>
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex082%20-%20Lista%20pares%20e%20%C3%ADmpares.py">ex082</a></td>
+<td>Pares e ímpares</td>
+</tr>
+<td><a href="https://github.com/ThiagoPanini/programming-lessons/blob/master/python/curso-em-video/exercicios/ex083%20-%20Validando%20express%C3%A3o.py">ex083</a></td>
+<td>Validando expressão</td>
+</tr>
+
 </table>
 
 # Exercícios PythonBrasil
