@@ -2,16 +2,17 @@
 
 int main() {
 	
-	int num;
-	double N[100];
+	double num;
+	float N[100], half;
 	int i;
 	
-	scanf("%d", &num);
+	scanf("%lf", &num);
 	N[0] = num;
 	printf("N[%d] = %.4lf\n", 0, N[0]);
 		
 	for(i=1; i<100; i++) {
-		N[i] = N[i-1] / 2;
+		num /= 2;
+		N[i] = num;
 		printf("N[%d] = %.4lf\n", i, N[i]);
 	}
 	
