@@ -1,21 +1,27 @@
 #include <stdio.h>
+int main()
+{
+ long long int a, b, tmp, tmp2;
+    int i;
 
-double fatorial(int n) {
-	if (n==0)
-		return 1;
-	else 
-		return fatorial(n-1)*n;
-}
+ while(scanf("%lld %lld", &a, &b) != EOF)
+ {
+  tmp = 1;
+  tmp2 = 1;
+  for (i = a; i > 0; --i)
+  {
+   tmp *= a;
+   a--;
+  }
 
-int main() {
-	int num1, num2;
-	double soma, fat1, fat2;
-	
-	while (1) {
-		scanf("%d %d", &num1, &num2);
-		soma = fatorial(num1) + fatorial(num2);
-		printf("%.0lf\n", soma);
-	}
-	
-	return 0;
+  for (i = b; i > 0; --i)
+  {
+   tmp2 *= b;
+   b--;
+  }
+
+  printf("%lld\n", tmp + tmp2);
+ }
+
+ return 0;
 }
