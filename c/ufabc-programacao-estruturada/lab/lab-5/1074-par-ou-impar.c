@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int num=0;
 
-void sinal_paridade(int n) {
+void sinal_paridade (int n) {
 	int x;
 	char par [] = "EVEN", impar [] = "ODD", neg [] = "NEGATIVE", pos [] = "POSITIVE", zero [] = "NULL";
 	scanf("%d", &x);
@@ -15,20 +15,19 @@ void sinal_paridade(int n) {
 	if (x<0)
 		printf("%s\n", neg);
 	else if (x>0)
-		print("%s\n", pos);
+		printf("%s\n", pos);
 
 	num++;
 	if(num==n)
 		return;
-	else
-		sinal_paridade(n);
+	sinal_paridade (n);
 }
 
-void main() {
+int main() {
 	int N;
 	scanf("%d", &N);
-	sinal_paridade(N);
+	sinal_paridade (N);
 	
-	//return 0;
+	return 0;
 }
 

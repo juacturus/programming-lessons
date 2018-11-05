@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ea944f0-ee0c-4ec8-87d1-4c258cc4245d" name="Default" comment="" />
+    <list default="true" id="3ea944f0-ee0c-4ec8-87d1-4c258cc4245d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../c/ufabc-programacao-estruturada/lab/lab-5/1074-par-ou-impar.c" beforeDir="false" afterPath="$PROJECT_DIR$/../c/ufabc-programacao-estruturada/lab/lab-5/1074-par-ou-impar.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,26 +17,44 @@
       <file leaf-file-name="Aula18 - Listas Compostas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/curso-em-video/aulas/Aula18 - Listas Compostas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="140">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex089 - Boletim de notas.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ex089 - Boletim de notas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/curso-em-video/exercicios/ex089 - Boletim de notas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="49" column="70" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
+            <state relative-caret-position="51">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex085 - Pares e Impares.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ex045- Jokenpo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/curso-em-video/exercicios/ex045- Jokenpo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex18_votacao_jogador.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-brasil/04-listas/ex18_votacao_jogador.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-461">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex085 - Pares e Impares.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/curso-em-video/exercicios/ex085 - Pares e Impares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="85">
+              <caret line="5" column="7" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -109,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="970" />
     <option name="height" value="1040" />
@@ -122,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,14 +159,18 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="curso-em-video" type="462c0819:PsiDirectoryNode" />
-              <item name="exercicios" type="462c0819:PsiDirectoryNode" />
+              <item name="python-brasil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python-brasil" type="462c0819:PsiDirectoryNode" />
+              <item name="04-listas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,8 +189,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex089 - Boletim de notas">
-    <configuration name="ex085 - Pares e Impares" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ex18_votacao_jogador">
+    <configuration name="ex045- Jokenpo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,25 +202,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curso-em-video/exercicios/ex085 - Pares e Impares.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ex086 - Matriz" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/curso-em-video/exercicios" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curso-em-video/exercicios/ex086 - Matriz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curso-em-video/exercicios/ex045- Jokenpo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,20 +262,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="ex18_votacao_jogador" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-brasil/04-listas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-brasil/04-listas/ex18_votacao_jogador.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.ex085 - Pares e Impares" />
-      <item itemvalue="Python.ex086 - Matriz" />
       <item itemvalue="Python.ex087 - Análise Matriz" />
       <item itemvalue="Python.ex088 - Mega Sena" />
       <item itemvalue="Python.ex089 - Boletim de notas" />
+      <item itemvalue="Python.ex045- Jokenpo" />
+      <item itemvalue="Python.ex18_votacao_jogador" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex18_votacao_jogador" />
+        <item itemvalue="Python.ex045- Jokenpo" />
         <item itemvalue="Python.ex089 - Boletim de notas" />
         <item itemvalue="Python.ex088 - Mega Sena" />
         <item itemvalue="Python.ex087 - Análise Matriz" />
-        <item itemvalue="Python.ex086 - Matriz" />
-        <item itemvalue="Python.ex085 - Pares e Impares" />
       </list>
     </recent_temporary>
   </component>
@@ -285,14 +311,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="760" y="0" width="776" height="832" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10690122" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16391276" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.19299406" side_tool="true" visible="true" weight="0.3254086" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.19365498" side_tool="true" visible="true" weight="0.32547864" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80700594" weight="0.32547864" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.806345" weight="0.35640648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -310,10 +337,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python-brasil/03-estruturas-repeticao/ex45_correcao.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/curso-em-video/aulas/Aula16.py" />
     <entry file="file://$PROJECT_DIR$/curso-em-video/exercicios/ex072.py" />
     <entry file="file://$PROJECT_DIR$/curso-em-video/aulas/Aula06a.py" />
     <entry file="file://$PROJECT_DIR$/curso-em-video/aulas/Aula06b.py" />
@@ -449,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/curso-em-video/exercicios/ex085 - Pares e Impares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/curso-em-video/exercicios/ex086 - Matriz.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -496,15 +512,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/curso-em-video/aulas/Aula18 - Listas Compostas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="140">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/curso-em-video/exercicios/ex089 - Boletim de notas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="49" column="70" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curso-em-video/exercicios/ex045- Jokenpo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-brasil/04-listas/ex18_votacao_jogador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curso-em-video/exercicios/ex085 - Pares e Impares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
