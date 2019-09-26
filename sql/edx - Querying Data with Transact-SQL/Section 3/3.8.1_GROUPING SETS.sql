@@ -12,15 +12,16 @@
 	);
 *******************************************************/
 
--- GROUPING SETS permitem múltiplos agrupame
-SELECT cat.ParentProductCategoryName, cat.ProductCategoryName, COUNT(prd.ProductID) AS Products
+-- GROUPING SETS permitem múltiplos agrupamentos
+SELECT cat.ParentProductCategoryName, cat.ProductCategoryName, COUNT(prd.ProductID) AS Products, 
+GROUPING_ID(cat.ParentProductCategoryName) AS GID_Cat1, GROUPING_ID(cat.ProductCategoryName) AS GID_Cat2
 FROM SalesLT.vGetAllCategories cat
 LEFT JOIN SalesLT.Product prd
 ON cat.ProductCategoryID = prd.ProductCategoryID
 --GROUP BY cat.ParentProductCategoryName, cat.ProductCategoryName
 --GROUP BY GROUPING SETS (cat.ParentProductCategoryName, cat.ProductCategoryName, ())
---GROUP BY ROLLUP (cat.ParentProductCategoryName, cat.ProductCategoryName)
-GROUP BY CUBE (cat.ParentProductCategoryName, cat.ProductCategoryName)
+GROUP BY ROLLUP (cat.ParentProductCategoryName, cat.ProductCategoryName)
+--GROUP BY CUBE (cat.ParentProductCategoryName, cat.ProductCategoryName)
 ORDER BY cat.ParentProductCategoryName, cat.ProductCategoryName;
 
 /*******************************************************
@@ -61,3 +62,31 @@ categoria. Após, cada categoria pai é agrupada, retornando
 seu respectivo total seguido de um agrupamento de ambas
 as categorias
 *******************************************************/
+
+/*******************************************************
+				    APRIMORANDO
+	
+	Para deixar o agrupamento mais sofisticado, vamos
+inserir uma coluna de Level, informando ao usuário um
+indicativo de subtotal para cada grupo
+*******************************************************/
+
+SELECT 
+	cat.ParentProductCategoryName AS CategoriaMae, 
+	cat.ProductCategoryName AS SubCategoria, 
+	IIF(GROUPING_ID(cat.ParentProductCategoryName) = 1 AND GROUPING_ID(cat.ProductCategoryName) = 1, 'Total', --Condição 1
+		IIF(GROUPING_ID(cat.ProductCategoryName) = 1, cat.ParentProductCategoryName + ' Subtotal', --ELSE IF
+			cat.ProductCategoryName + ' Subtotal')) AS Level, --ELSE
+	COUNT(prd.ProductID) AS Products
+FROM SalesLT.vGetAllCategories cat
+LEFT JOIN SalesLT.Product prd
+ON cat.ProductCategoryID = prd.ProductCategoryID
+--GROUP BY cat.ParentProductCategoryName, cat.ProductCategoryName
+--GROUP BY GROUPING SETS (cat.ParentProductCategoryName, cat.ProductCategoryName, ())
+GROUP BY ROLLUP (cat.ParentProductCategoryName, cat.ProductCategoryName)
+--GROUP BY CUBE (cat.ParentProductCategoryName, cat.ProductCategoryName)
+ORDER BY cat.ParentProductCategoryName, cat.ProductCategoryName;
+
+
+IIF(GROUPING_ID(a.CountryRegion) = 1 AND GROUPING_ID(a.StateProvince) = 1, 
+'Total', IIF(GROUPING_ID(a.StateProvince) = 1, a.CountryRegion + ' Subtotal', a.StateProvince + ' Subtotal')) AS Level,
