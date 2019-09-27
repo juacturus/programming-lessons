@@ -1,0 +1,54 @@
+***********************************************************;
+*                 Semana 02, Arquivo 01                   *;
+* 		   Criando uma nova biblioteca (libname)          *;
+***********************************************************;
+*  Pontos importantes:                                    *;
+*                                                         *;
+*    WORK library - Tabelas pessoais temporárias          *;
+*    SASHELP library - Tabelas de exemplo                 *;
+*                                                         *;
+*    WORK é a biblioteca padrão                           *;
+*    Abaixo, temos comandos estritamente semelhantes:     *;
+*														  *;
+*    proc contents data=work.class;                       *;
+*    proc contents data=class;                            *;
+***********************************************************;
+
+***********************************************************;
+*  Demonstração                                           *;
+*  1) Executar o código abaixo (atentando ao caminho) de  *;
+*     entrada fornecido, navegar nos paineis p/ examinar  *;
+*     o resultado nas bibliotecas WORK e OUT              *;
+*  2) Qual(is) tabelas estão presentes na lib WORK?       *;
+* 	  Qual(is) tabelas estão presentes na lib OUT?        *;
+*  3) Restart SAS.                                        *;
+*     * Enterprise Guide: In the Servers list, select     *;
+*       Local and click Disconnect. Click Yes in the      *;
+*       confirmation window. Expand Local to start SAS    *;
+*       again, and then expand Libraries.                 *;
+*     * SAS Studio: Select More application options ->    *;
+*       Reset SAS Session.                                *;
+*  4) Discutir as seguintes questões:                     *;
+*     a) O que ainda se encontra na lib WORK?             *;
+*     b) Porque as libs OUT e PG1 não estão disponíveis?  *;
+*     c) A tabela class_copy2 foi salva permanentemente?  *;
+*     d) O que deve ser feito para reestabelecer a lib    *;
+*        OUT?                                             *;
+*  5) Para reestabelecer a lib PG1, abrir e executar o    *;
+*     programa libname.sas salvo previamente no diretório *;
+*     principal de arquivos do curso                      *;
+***********************************************************;
+
+*Modify the path if necessary;
+*Aqui, será criada uma lib de nome "out" no diretório especificado;
+libname out "~/EPG194/output";
+
+/* No bloco abaixo, será criada um dataset class_copy1 e class_copy2
+que receberão o mesmo valor que a tabela class da lib sashelp*/
+data class_copy1 out.class_copy2;
+	set sashelp.class;
+run;
+
+proc contents data=out.class_copy2;
+
+proc print data=out.class_copy2;
